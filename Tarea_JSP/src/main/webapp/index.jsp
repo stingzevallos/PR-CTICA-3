@@ -12,10 +12,11 @@
 </head>
 
 <body>
+    <%--Bien ahi Merisabel :v --%>
 
     <h1 align="center">Mi Primera Web </h1>
     <hr>
-    <p>Esto es un párrafo.</p>
+    <p>Esto es un pÃ¡rrafo.</p>
     <br>
     <%--Comentarios: Esto es un comentario en JSP --%>
 
@@ -23,8 +24,8 @@
     <% out.println(); %>
     <%out.print("Hola mundo desde JSP"); %>
     <br>
-    <%--Esto es una expresión en JSP --%>
-    <%="Esto es una expresión" %>
+    <%--Esto es una expresiÃ³n en JSP --%>
+    <%="Esto es una expresiÃ³n" %>
     <br>
     <%--Se declara una directiva para utilizar la clase Date <%@ page import="java.util.Date"  %> --%>
     <%
@@ -36,7 +37,7 @@
     <%! public static int contador=7; %>
     <%  out.println("Valor de la variable contador: "+ contador);%>
     <br>
-    <%--Navegador y Versión del Sistema Operativo --%>
+    <%--Navegador y VersiÃ³n del Sistema Operativo --%>
     <% out.print(request.getHeader("USER-AGENT")); %>
 
 </body>
